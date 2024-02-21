@@ -11,7 +11,7 @@ public class First {
 		boolean bol=true;
 		//two byte values data types
 		//char
-		char ch='A';//Use Single coat
+		char ch=2;
 		//short
 		short sh=3;
 		//4 byte value data types
