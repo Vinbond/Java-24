@@ -4,7 +4,7 @@ public class First {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//  Primitive data types
+		// Data types primitive data types
 		//! byte 
 		byte b=1;
 		//boolean 1 byte 
@@ -24,13 +24,6 @@ public class First {
         //double 
         double db=3.45665;
         
-        int x=10;
-        int y=20;
-        System.out.println("X value is :"+x);
-        System.out.println("Y value is :"+y);
-        y=30;
-        System.out.println("y value is :"+y);
-        
         
         System.out.println("Byte it takes 1 Byte of memory :"+b);
         System.out.println("Boolean it takes 1 Byte of memory :"+bol);
@@ -40,15 +33,6 @@ public class First {
         System.out.println("Float   it takes 4 Bytes of memory :"+fl);
         System.out.println("Long   it takes 8 Bytes of memory :"+lng);
         System.out.println("double   it takes 8 Bytes of memory :"+db);
-        
-        /*Non-Primitive Data types like 
-         Array 
-         String 
-         Class
-         Interface
-         Objects
-         
-         * */
         
 	}
 
