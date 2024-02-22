@@ -1,0 +1,25 @@
+package First;
+
+public class Conditionals {
+
+	public static void main(String[] args) {
+		/*Conditional Statements
+		 * if
+		 * if-else
+		 * if-else-if Ladder
+		 * nested-if
+		 * Switch-case Statements
+		 * */
+		/*Jumps
+		 * brake
+		 * continue
+		 * return*/
+		int x=20;
+		int y=30;
+		if(x<y) {
+			System.out.println("x is Less than y");
+		}
+
+	}
+
+}

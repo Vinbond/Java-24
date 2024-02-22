@@ -1,0 +1,32 @@
+package First;
+
+public class Loops {
+
+	public static void main(String[] args) {
+		/* There are FOUR types of loops in JAVA they are
+		1:For Loop
+		1:While Loop
+		1:Do While Loop
+		1:For-each Loop
+        */
+		int x=1;
+		for(int i=0;i<=10;i++) {
+			//Initialization,Condition,increment/decrement
+			System.out.println(i);
+		}
+		while(x<=20) {
+			//This loop first condition will checks condition is true then it will execute
+			System.out.println(x);
+			x++;
+		}
+		int y=1;
+		do {
+			System.out.println(y);
+			y++;
+		}while(y<=25);
+		}
+		
+		  
+	}
+
+

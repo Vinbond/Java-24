@@ -113,7 +113,12 @@ public class Oparetors {
 		 * 11110=30                                        128,64,32,16,8,4,2,1
 		 *     1                                                    1 1 1 1 0
 		 * =====
-		 * 11111=31
+		 * 11111
+		 *  
+		 *     
+		 * 
+		 * =31
+		 * compiler will give 2s complements of the number that is -31
 		 * */
 	}
 
