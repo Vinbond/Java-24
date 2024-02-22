@@ -1,0 +1,38 @@
+package First;
+
+public class Oparetors {
+
+	public static void main(String[] args) {
+		/*Operators in Java We have 8 types Operators They are 
+		 * Arithmetic Operators
+		 * Unary Operators 
+		 * Assignment Operators 
+		 * Logical Operators 
+		 * Ternary Operators
+		 * Bitwise Operators
+		 * Instance Operators
+		 * Shift operators
+		 * Relational Operators*/
+		//Arithmetic Operators 
+		int x=30;
+		int y=20;
+		int c=50;
+		System.out.println("x+y ="+(x+y));
+		System.out.println("x-y ="+(x-y));
+		System.out.println("x/y ="+(x/y));
+		System.out.println("x*y ="+(x*y));
+		System.out.println("x%y ="+(x%y));
+		System.out.println("====================================");
+		//Assignment Operators======================
+		System.out.println(" C holding value x+y and  itself :"+(c+=x+y));
+		System.out.println(" C holding value x-y and  itself :"+(c-=x+-y));
+		System.out.println(" C holding value x*y and  itself :"+(c*=x*y));
+		System.out.println(" C holding value x/y and  itself :"+(c/=x/y));
+		System.out.println(" C holding value y and  itself :"+(c=y));
+		System.out.println(" C holding value x+y and  itself :"+(c%=x%y));
+		System.out.println("=====================================");
+		//Unary Operators ==================================
+
+	}
+
+}
