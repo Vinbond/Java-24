@@ -1,0 +1,15 @@
+package First;
+
+
+public class Methods_Modifier {
+	static void  Hello() {
+		System.out.println("Static method called");
+	}
+	//Static Methods & Instance Methods
+
+	public static void main(String[] args) {
+		/*Static Methods we can all it without creating any object for the class */
+		Hello();
+	}
+
+}
