@@ -7,21 +7,7 @@ class Inst{
 	}
 	
 }
-/*Abstract methods are methods we can create "Abstract key word "
- first create the abstract all abstract methods we cannot implement in main create new class extends the all property
- that defined in main class now we can implement the class properties*/
-//Here the abstract class 
-abstract class first_abst{
-	abstract void printInfo();
-}//create a child class of this class
- 
-	
-class second extends first_abst{
-	  void printInfo() {
-		  int x=5;
-		  int y=10;
-		  System.out.println("X + Y ="+x+y);
-	  }
+
 
 public class Methods_Modifier {
 	static void  Hello() {//static method Declare
@@ -38,11 +24,6 @@ public class Methods_Modifier {
 		Inst obj=new Inst();
 		obj.PrintData("This Is First Data");
 		System.out.println(obj.Data);
-		System.out.println("===============Abstract Method");
-		//abstract method are use key word and define it 
-		//create a object for abstract class
-		first_abst obj2=new second();
-		obj2.printInfo();
 	}
 
 }
