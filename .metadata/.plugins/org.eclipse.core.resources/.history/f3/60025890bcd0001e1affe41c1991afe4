@@ -1,0 +1,19 @@
+package First;
+
+public class Variables {
+	//Static variable globle variable we can access it without create object
+        public static String str2="well Come";
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       //Three types of variables 
+	   /* 1 Local Variable 
+	    * 2 Static Variable
+	    * 3 Instance Variable*/
+		//Lets create Local variable
+		String str1="Hello";
+		/* str1 is the local variable this variable block level scope */
+		System.out.println(str1);
+		System.out.println(str2);
+	}
+
+}

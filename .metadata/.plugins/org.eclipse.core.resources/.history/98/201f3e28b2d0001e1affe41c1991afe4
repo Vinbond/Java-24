@@ -1,0 +1,39 @@
+package First;
+
+public class First {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Data types primitive data types
+		//! byte 
+		byte b=1;
+		//boolean 1 byte 
+		boolean bol=true;
+		//two byte values data types
+		//char
+		char ch=2;
+		//short
+		short sh=3;
+		//4 byte value data types
+		int i=4;
+		//float
+		float fl=124f;
+		//8 bytes types
+		//long
+        long lng=1234555;
+        //double 
+        double db=3.45665;
+        
+        
+        System.out.println("Byte it takes 1 Byte of memory :"+b);
+        System.out.println("Boolean it takes 1 Byte of memory :"+bol);
+        System.out.println("Char  it takes 2 Bytes of memory :"+ch);
+        System.out.println("short  it takes 2 Bytes of memory :"+sh);
+        System.out.println("Int  it takes 4 Bytes of memory :"+i);
+        System.out.println("Float   it takes 4 Bytes of memory :"+fl);
+        System.out.println("Long   it takes 8 Bytes of memory :"+lng);
+        System.out.println("double   it takes 8 Bytes of memory :"+db);
+        
+	}
+
+}
